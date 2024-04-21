@@ -1,0 +1,125 @@
+﻿namespace Proyecto_Final_Programacion_II
+{
+    partial class ClienteIndex
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            label2 = new Label();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.DarkBlue;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.ForeColor = Color.Transparent;
+            button1.Location = new Point(535, 142);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 33);
+            button1.TabIndex = 0;
+            button1.Text = "Editar";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.DarkBlue;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.ForeColor = Color.Transparent;
+            button2.Location = new Point(535, 104);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 32);
+            button2.TabIndex = 1;
+            button2.Text = "Eliminar";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.DarkBlue;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.ForeColor = Color.Transparent;
+            button3.Location = new Point(535, 65);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 33);
+            button3.TabIndex = 2;
+            button3.Text = "Agregar";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Navy;
+            label2.BorderStyle = BorderStyle.Fixed3D;
+            label2.FlatStyle = FlatStyle.Flat;
+            label2.Font = new Font("Leelawadee", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Transparent;
+            label2.Location = new Point(210, 31);
+            label2.Name = "label2";
+            label2.Size = new Size(122, 31);
+            label2.TabIndex = 15;
+            label2.Text = "CLIENTES";
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(32, 65);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(497, 234);
+            dataGridView1.TabIndex = 16;
+            // 
+            // ClienteIndex
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.fondo_degradado_lineas_dinamicas_23_2149005728;
+            ClientSize = new Size(638, 352);
+            Controls.Add(dataGridView1);
+            Controls.Add(label2);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Name = "ClienteIndex";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "ClienteIndex";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Label label2;
+        private DataGridView dataGridView1;
+    }
+}
